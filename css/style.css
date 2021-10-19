@@ -23,7 +23,7 @@ body {
   background: url(../images/bg-bottom.svg) left bottom no-repeat,
     url(../images/bg-top.svg) right top no-repeat;
   background-attachment: fixed;
-  padding-top: 71px;
+  padding-top: 60px;
 }
 
 /**********************top-section******************/
@@ -35,7 +35,6 @@ body {
   align-items: center;
   width: 239px;
   height: 111px;
-  margin-bottom: 64px;
 }
 
 .top-section > h2 {
@@ -287,10 +286,6 @@ footer a {
     padding: 64px 24px 0 24px;
     /* background: none; */
     background: none, url(../images/bg-top.svg) right top no-repeat;
-  }
-
-  .top-section {
-    margin-bottom: 0;
   }
 
   main {
