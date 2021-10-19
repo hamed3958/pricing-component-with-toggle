@@ -10,7 +10,7 @@ Users should be able to:
 ![Pricing component](images/Pricing-component.png)
 
 ### Links
-- Live Site URL: [live "Pricing component" URL here](https://your-live-site-url.com)
+- Live Site URL: [live "Pricing component" URL here](https://hamed3958.github.io/pricing-component-with-toggle/)
 
 ### Built with
 - Semantic HTML5 markup
