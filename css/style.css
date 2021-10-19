@@ -35,6 +35,7 @@ body {
   align-items: center;
   width: 239px;
   height: 111px;
+  margin-bottom: 64px;
 }
 
 .top-section > h2 {
@@ -153,7 +154,7 @@ main {
   border-radius: 10px 0px 0px 10px;
 }
 
-.monthly{
+.monthly {
   display: block;
 }
 
@@ -278,4 +279,43 @@ footer {
 
 footer a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 1055px) {
+  body {
+    min-height: auto;
+    padding: 64px 24px 0 24px;
+    /* background: none; */
+    background: none, url(../images/bg-top.svg) right top no-repeat;
+  }
+
+  .top-section {
+    margin-bottom: 0;
+  }
+
+  main {
+    width: 327px;
+    height: auto;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 38px;
+  }
+
+  .left,
+  .mid,
+  .right {
+    width: 327px;
+    height: 453px;
+    margin-bottom: 32px;
+  }
+
+  .line {
+    width: 268px;
+  }
+
+  footer {
+    font-size: 10px;
+  }
 }
